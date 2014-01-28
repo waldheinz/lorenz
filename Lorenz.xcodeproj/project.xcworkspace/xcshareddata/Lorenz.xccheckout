@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1412B223-4D14-4997-8392-B47F40DDDC24</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Lorenz</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3A2F8538-E8FC-4EB3-9AA4-FCD4FFEC40DA</key>
+		<string>ssh://github.com/waldheinz/lorenz.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Lorenz.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3A2F8538-E8FC-4EB3-9AA4-FCD4FFEC40DA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/waldheinz/lorenz.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3A2F8538-E8FC-4EB3-9AA4-FCD4FFEC40DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3A2F8538-E8FC-4EB3-9AA4-FCD4FFEC40DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lorenz</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		274D527B0F8012E200F4C923 /* Config.nib in Resources */ = {isa = PBXBuildFile; fileRef = 274D527A0F8012E200F4C923 /* Config.nib */; };
-		27A3E47D0F7F90AE00EBD517 /* MyOpenGlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A3E47B0F7F90AE00EBD517 /* MyOpenGlView.h */; };
-		27A3E47E0F7F90AE00EBD517 /* MyOpenGlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A3E47C0F7F90AE00EBD517 /* MyOpenGlView.m */; };
+		27B0877D189427B0007E0DE4 /* LorenzDraw.c in Sources */ = {isa = PBXBuildFile; fileRef = 27B0877B189427B0007E0DE4 /* LorenzDraw.c */; };
+		27B0877E189427B0007E0DE4 /* LorenzDraw.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B0877C189427B0007E0DE4 /* LorenzDraw.h */; };
+		27B0878118942842007E0DE4 /* GlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B0877F18942842007E0DE4 /* GlView.h */; };
+		27B0878218942842007E0DE4 /* GlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B0878018942842007E0DE4 /* GlView.m */; };
 		27B19F4F0F7E9A15003605EC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B19F4E0F7E9A15003605EC /* OpenGL.framework */; };
-		8D255AC70486D3F9007BF209 /* Lorenz_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA80370C50100C91783 /* Lorenz_Prefix.pch */; };
 		8D255AC80486D3F9007BF209 /* LorenzView.h in Headers */ = {isa = PBXBuildFile; fileRef = F50079790118B23001CA0E54 /* LorenzView.h */; };
 		8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D255ACC0486D3F9007BF209 /* LorenzView.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* LorenzView.m */; };
@@ -26,14 +27,15 @@
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		274D527A0F8012E200F4C923 /* Config.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Config.nib; path = src/Config.nib; sourceTree = SOURCE_ROOT; };
-		27A3E47B0F7F90AE00EBD517 /* MyOpenGlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGlView.h; sourceTree = "<group>"; };
-		27A3E47C0F7F90AE00EBD517 /* MyOpenGlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGlView.m; sourceTree = "<group>"; };
+		27B0877B189427B0007E0DE4 /* LorenzDraw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = LorenzDraw.c; path = src/LorenzDraw.c; sourceTree = "<group>"; };
+		27B0877C189427B0007E0DE4 /* LorenzDraw.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = LorenzDraw.h; path = src/LorenzDraw.h; sourceTree = "<group>"; };
+		27B0877F18942842007E0DE4 /* GlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlView.h; sourceTree = "<group>"; };
+		27B0878018942842007E0DE4 /* GlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlView.m; sourceTree = "<group>"; };
 		27B19F4E0F7E9A15003605EC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		32DBCFA80370C50100C91783 /* Lorenz_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lorenz_Prefix.pch; sourceTree = "<group>"; };
 		8D255AD20486D3F9007BF209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		8D255AD30486D3F9007BF209 /* Lorenz.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lorenz.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50079790118B23001CA0E54 /* LorenzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LorenzView.h; sourceTree = "<group>"; };
-		F500797A0118B23001CA0E54 /* LorenzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LorenzView.m; sourceTree = "<group>"; };
+		F500797A0118B23001CA0E54 /* LorenzView.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 3; lastKnownFileType = sourcecode.c.objc; path = LorenzView.m; sourceTree = "<group>"; tabWidth = 3; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +87,10 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				27B0877F18942842007E0DE4 /* GlView.h */,
+				27B0878018942842007E0DE4 /* GlView.m */,
 				F50079790118B23001CA0E54 /* LorenzView.h */,
 				F500797A0118B23001CA0E54 /* LorenzView.m */,
-				27A3E47B0F7F90AE00EBD517 /* MyOpenGlView.h */,
-				27A3E47C0F7F90AE00EBD517 /* MyOpenGlView.m */,
 			);
 			name = Classes;
 			path = src;
@@ -123,7 +125,8 @@
 		32DBCFA70370C4F300C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCFA80370C50100C91783 /* Lorenz_Prefix.pch */,
+				27B0877B189427B0007E0DE4 /* LorenzDraw.c */,
+				27B0877C189427B0007E0DE4 /* LorenzDraw.h */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -135,9 +138,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D255AC70486D3F9007BF209 /* Lorenz_Prefix.pch in Headers */,
+				27B0877E189427B0007E0DE4 /* LorenzDraw.h in Headers */,
+				27B0878118942842007E0DE4 /* GlView.h in Headers */,
 				8D255AC80486D3F9007BF209 /* LorenzView.h in Headers */,
-				27A3E47D0F7F90AE00EBD517 /* MyOpenGlView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D255ACC0486D3F9007BF209 /* LorenzView.m in Sources */,
-				27A3E47E0F7F90AE00EBD517 /* MyOpenGlView.m in Sources */,
+				27B0877D189427B0007E0DE4 /* LorenzDraw.c in Sources */,
+				27B0878218942842007E0DE4 /* GlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,12 +245,13 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = "";
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				INSTALL_PATH = ./build/;
 				PRODUCT_NAME = Lorenz;
 				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -260,13 +265,13 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_OBJC_GC = "";
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				INSTALL_PATH = ./build/;
 				PRODUCT_NAME = Lorenz;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = saver;
